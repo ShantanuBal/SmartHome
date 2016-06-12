@@ -13,8 +13,10 @@
 @property (weak, nonatomic) IBOutlet UISwitch *toggleSwitch;
 @property (weak, nonatomic) IBOutlet UITextField *value;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *spinner;
+@property (weak, nonatomic) IBOutlet UISlider *slider;
 
 - (IBAction)switchChanged:(UISwitch *)sender;
+- (IBAction)sliderChanged:(UISlider *)sender;
 
 @end
 
